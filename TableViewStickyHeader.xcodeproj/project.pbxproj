@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC65085A223B84B7003DE85B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC650859223B84B7003DE85B /* HeaderView.swift */; };
 		AC6932A7221BE44300C2A5EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6932A6221BE44300C2A5EF /* AppDelegate.swift */; };
 		AC6932A9221BE44300C2A5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6932A8221BE44300C2A5EF /* ViewController.swift */; };
 		AC6932AC221BE44300C2A5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6932AA221BE44300C2A5EF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC650859223B84B7003DE85B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		AC6932A3221BE44300C2A5EF /* TableViewStickyHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewStickyHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6932A6221BE44300C2A5EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC6932A8221BE44300C2A5EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				AC6932A6221BE44300C2A5EF /* AppDelegate.swift */,
 				AC6932A8221BE44300C2A5EF /* ViewController.swift */,
+				AC650859223B84B7003DE85B /* HeaderView.swift */,
 				AC6932AA221BE44300C2A5EF /* Main.storyboard */,
 				AC6932AD221BE44500C2A5EF /* Assets.xcassets */,
 				AC6932AF221BE44500C2A5EF /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC6932A9221BE44300C2A5EF /* ViewController.swift in Sources */,
+				AC65085A223B84B7003DE85B /* HeaderView.swift in Sources */,
 				AC6932A7221BE44300C2A5EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,8 +285,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JTLB8FT52S;
+				DEVELOPMENT_TEAM = PF5TQ3AQ6W;
 				INFOPLIST_FILE = TableViewStickyHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,8 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JTLB8FT52S;
+				DEVELOPMENT_TEAM = PF5TQ3AQ6W;
 				INFOPLIST_FILE = TableViewStickyHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
